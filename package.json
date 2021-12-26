@@ -1,0 +1,30 @@
+{
+  "name": "p2p",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "types": "src/index.d.ts",
+  "scripts": {
+    "start": "ts-node --files src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "it-concat": "^2.0.0",
+    "it-length-prefixed": "^5.0.3",
+    "it-pipe": "^1.1.0",
+    "libp2p": "^0.35.6",
+    "libp2p-bootstrap": "^0.14.0",
+    "libp2p-kad-dht": "^0.27.5",
+    "libp2p-mplex": "^0.10.5",
+    "libp2p-noise": "^4.0.0",
+    "libp2p-tcp": "^0.17.2",
+    "multiaddr": "^10.0.1",
+    "sleep-promise": "^9.1.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  }
+}
